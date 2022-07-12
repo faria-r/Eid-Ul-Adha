@@ -3,6 +3,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.sticky-icon{
+    position: fixed;
+    left: 90%;
+}
 nav{
     position: fixed;
     width: 100%;
@@ -34,9 +38,6 @@ nav ul li:nth-child(4){
 }
 .dropdown{
     display: none;
-}
-nav ul>li:nth-child(2):hover{
-    background-color: aqua;
 }
 .banner{
     height: 70vh;
