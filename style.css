@@ -1,0 +1,184 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+background-image:radial-gradient(bisque,orange,rgba(235, 152, 0, 0.938),red) ;
+}
+.icons{
+    padding: 10px 30px;
+   color: red;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.nav ul,li{
+    padding: 0px 25px;
+    background-image: linear-gradient(orange,bisque,darkgoldenrod);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+nav ul li:nth-child(4){
+    margin-right: 5%;
+}
+.nav ul,li,a{
+    text-decoration:none;
+    color: darkred;
+}
+.dropdown{
+    display: none;
+}
+nav ul>li:nth-child(2):hover{
+    background-color: aqua;
+}
+.banner{
+    height: 70vh;
+    background-image: url(images/R\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding: 10%;
+}
+.banner-content p,button{
+    font-size: 20px;
+    text-align: justify;
+}
+.banner-content h1{
+
+    font-size: 55px;
+    font-weight: bold;
+}
+.btn{
+    border-style: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(orange, red, tomato);
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.flex-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    margin: 10px 100px;
+
+}
+.flex-box{
+    height: 80%;
+    width: 40%;
+    margin-top: 80px;
+}
+.flex-box img{
+    background-size: cover;
+    height: 90%;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px skyblue;
+}
+.flex-box-header{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: justify;
+}
+.flex-box-text{
+    font-size: 20px;
+    color: gray;
+} 
+.grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,400px);
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+        grid-gap: 20px;
+        margin-bottom: 160px;
+
+}
+.grid-box{
+    display: flex;
+    padding: 30px 15px 60px 15px;
+    height: 150px;
+    background-color: lightpink;
+    border-radius: 10px;
+    
+}
+.grid-content{
+    padding-left: 15px;
+}
+.grid-box img{
+    height: 50px;
+    margin-top: 25px;
+}
+.grid-header{
+    margin-top: 80px;
+    width: 100%;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+} 
+
+.grid-container-two{
+    margin: 8% 15%;
+    display: grid;
+    justify-content:center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-gap:20px;  
+}
+.img-container{
+    height: 360px;
+}
+.images{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.grid-header{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+} 
+.grid-text{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.oip-img{
+    height:200px ;
+    width: 335px;
+    border-top-left-radius: 20px;
+}
+.donation{
+    border-radius:18px ;
+    margin-top: 50px;
+}
+.donation-content{
+    padding: 0px 5px 15px 30px;
+}
+.donation-content a{
+    color: red;
+    font-weight: 800;
+}
+footer h2{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    padding: 30px 50px;
+}
