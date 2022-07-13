@@ -74,6 +74,7 @@ nav ul li:nth-child(4){
     height: 80%;
     width: 40%;
     margin-top: 80px;
+    
 }
 .flex-box img{
     background-size: cover;
@@ -81,6 +82,12 @@ nav ul li:nth-child(4){
     width: 85%;
     border-radius: 10px;
     box-shadow: 10px 5px 30px skyblue;
+}
+.flex-box video{
+    margin-bottom: 30px;
+    height: 450px;
+    width: 450px;
+    border-radius: 21px;
 }
 .flex-box-header{
     font-size: 40px;
